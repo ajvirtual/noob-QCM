@@ -1,0 +1,17 @@
+.qcmWrapper {
+    background-color: #6afb86;
+    width: 600px;
+    padding: 31px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+.form-wrapper {
+    text-align: left;
+    width: 100px;
+    margin: auto;
+}
+input {
+    margin-right: 10px;
+}

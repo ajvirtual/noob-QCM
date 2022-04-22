@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Si le fichier auquel on tente d'acceder existe (si on veut acceder a une image par exemple).
+# Alors on ne reecrit pas l'URL.
+
+RewriteRule ^admin/ admin.php [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [QSA,L]

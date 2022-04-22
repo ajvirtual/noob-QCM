@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+}
+/* header.header {
+    position: fixed;
+    top: 0;
+} */
+#footer {
+    background: rgb(20, 209, 146);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+.table-admin-news td, .table-admin-news th {
+    padding-right: 20px;
+    padding-left: 20px;
+}
