@@ -1,2 +1,2 @@
 # noob-QCM
-a php bases little qcm like project
+a php based little qcm like project
